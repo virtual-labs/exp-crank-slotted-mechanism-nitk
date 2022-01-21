@@ -1,1 +1,1 @@
-# Crank and Slotted Mechanism
+## Crank and Slotted Mechanism
