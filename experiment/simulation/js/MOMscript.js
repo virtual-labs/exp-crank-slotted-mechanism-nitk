@@ -62,7 +62,7 @@ function pointdisp(a,context,lwidth,scolor,fcolor,tcolor,isTP,TPpos)
 	{
 	context.beginPath();	
 	context.strokeStyle=tcolor;
-	context.font = "9px Arial";
+	context.font = "12px Arial";
 	switch(TPpos)
 	{
 	case 1:
