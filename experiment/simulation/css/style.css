@@ -306,7 +306,7 @@ h1 {
 }
 
 table {
-  /* margin-left: 2rem; */
+  margin-left: 2rem;
 }
 
 table,
@@ -329,7 +329,7 @@ td {
   /* align-items: self-end; */
 }
 #commentboxleft {
-  justify-self: start;
+  justify-self: end;
 }
 /* **********VARIABLES**************** */
 #variables {
