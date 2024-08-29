@@ -140,6 +140,9 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
+  #variables-section {
+    width: 100%;
+  }
 }
 
 /* **************************** */
