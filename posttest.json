@@ -1,0 +1,93 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "How many links are there in a Crank and slotted mechanism",
+        "answers": {
+          "a": "4",
+          "b": "3",
+          "c": "6",
+          "d": "5"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "How many Sliding elements are present in the mechanism",
+        "answers": {
+          "a": " 1",
+          "b": "3",
+          "c": "2",
+          "d": "None of the above"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "How many degrees of freedom does this mechanism have",
+        "answers": {
+          "a": "2",
+          "b": "1",
+          "c": "3",
+          "d": "4"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      },
+      {
+        "question": "What is the order of analysis for the mechanism",
+        "answers": {
+          "a": "Position, Velocity and Acceleration",
+          "b": "Velocity, Acceleration and position",
+          "c": "Position, Acceleration and Velocity",
+          "d": "Acceleration, Velocity and Position"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "Which element does the Coriolis component of acceleration act on",
+        "answers": {
+          "a": "Slider D",
+          "b": "Slider A",
+          "c": "Link OA",
+          "d": "Link BC"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      }
+   
+    ]
+  }
+  
+  
