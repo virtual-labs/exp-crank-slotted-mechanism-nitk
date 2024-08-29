@@ -103,7 +103,7 @@
             ></a>
             <span>Variables</span>
           </li>
-          <li class="tool-list">
+          <li class="tool-list" title="Play/Pause">
             <img
               id="playpausebutton"
               onclick="simstate()"
@@ -113,10 +113,11 @@
             />
             <span class="playPause">Pause</span>
           </li>
-          <li class="tool-list">
+          <li class="tool-list" >
             <div class="tool-list--two">
               <img
                 id="prev"
+                title="Previous"
                 onclick="prev()"
                 src="images/bluebkdulls.svg"
                 alt=""
@@ -125,6 +126,7 @@
               />
               <img
                 id="next"
+                title="Next"
                 onclick="next()"
                 src="images/bluebkwdulls.svg"
                 alt=""
@@ -134,7 +136,7 @@
             <span class="prevNext">Next</span>
           </li>
 
-          <li class="tool-list">
+          <li class="tool-list" title="Rotate">
             <img
               id="rotationbutton"
               onclick="rotstate()"
@@ -153,7 +155,7 @@
             <div class="canvas__div">
               <div id="canvas-container">
                 <!-- <canvas id="canvas" class="canvas"></canvas> -->
-                <canvas id="simscreen" height="400px" width="550px"></canvas>
+                <canvas id="simscreen" height="400px" width="600px"></canvas>
               </div>
               <div class="comments-sec">
                 <div id="tables">
