@@ -463,7 +463,7 @@ function draw() {
   //pointjoin(a,b); to join to points with a line
   canvas = document.getElementById("simscreen");
   ctx = canvas.getContext("2d");
-  ctx.clearRect(0, 0, 550, 400); //clears the complete canvas#simscreen everytime
+  ctx.clearRect(0, 0, 600, 400); //clears the complete canvas#simscreen everytime
 
   o = pointtrans(o, trans);
   a = pointtrans(a, trans);
