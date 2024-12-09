@@ -9,20 +9,14 @@ em:current font size
 /* Below 1344px (Smaller Desktops) */
 /* **************************** */
 
-@media (min-width: 1200px) {
-  #variables-section {
-    width: 200%;
-  }
-}
-
 /* **************************** */
 /* Below 1200px (Lanscape Tablets) */
 /* **************************** */
 
 @media (max-width: 75em) {
   body {
-    width: 100%;
-    margin: unset;
+    max-width: 100%;
+    margin: 0 auto;
   }
   .title-div h1 {
     font-size: 2.5rem;
@@ -41,18 +35,10 @@ em:current font size
     width: 3rem;
     height: 3rem;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* background-color: red; */
-  }
+
   .div__control img {
     width: 3rem;
     height: 2.8rem;
-  }
-  #variables-section {
-    width: 200%;
   }
 }
 
@@ -61,6 +47,10 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 59em) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
   .tool-link:link,
   .tool-link:visited {
     gap: 0.5rem;
@@ -88,15 +78,10 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
-    /* background: linear-gradient(
-      to bottom,
-      #f7c3a9da,
-      #c17a53da,
-      #c17a53da,
-      #c17a53da,
-      #c17a53da,
-      #311b10da
-    ); */
+    margin: 0;
+  }
+  .main {
+    grid-column: 1/-1;
   }
   .tool-menu {
     list-style: none;
@@ -121,27 +106,12 @@ em:current font size
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* background-color: red; */
-  }
+
   .main-section {
     grid-template-columns: 1fr;
   }
   .canvas__div {
     grid-template-columns: 1fr;
-  }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
-  }
-  #variables-section {
-    width: 100%;
   }
 }
 
@@ -154,16 +124,6 @@ em:current font size
   }
   .canvas__div {
     grid-template-columns: 1fr;
-  }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
-  }
-  #variables-section {
-    width: 100%;
   }
 }
 
@@ -205,9 +165,6 @@ em:current font size
     border: none;
     border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
-  #variables-section {
-    width: 100%;
-  }
 }
 
 @media (max-width: 37.5em) {
@@ -221,14 +178,6 @@ em:current font size
 /* Below 540px (Smaller Tablets) */
 /* **************************** */
 @media (max-width: 34em) {
-  .title-div-container {
-    padding: 0.5rem 0.5rem 0rem 0.5rem;
-  }
-  .container {
-    padding: 0.5rem;
-    gap: 1rem;
-  }
-
   .title-div h1 {
     padding: 0.2rem;
 
@@ -277,9 +226,6 @@ em:current font size
   }
   .tooltip {
     font-size: 1rem;
-  }
-  #variables-section {
-    width: 100%;
   }
 }
 
