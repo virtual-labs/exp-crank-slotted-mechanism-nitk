@@ -547,6 +547,9 @@ function drawvel(ctx) {
 
   pointjoin(d, vcd, ctx, "#005500", 2);
   drawArrow(vcd.xcoord, vcd.ycoord, ctx, arrvcd, 15, 30, "blue");
+  ctx.lineWidth = 1;
+  ctx.font = "400 16px 'nunito', sans-serif";
+  ctx.strokeStyle = "#000000";
   ctx.strokeText("Velocity Diagram (Scale = 1:" + scalev + ")", 170, 350);
   ctx.restore();
 
@@ -653,6 +656,9 @@ function drawacc(ctx) {
 
   pointjoin(d, ads, ctx, "#005500", 2);
   drawArrow(ads.xcoord, ads.ycoord, ctx, arrd, 15, 30, "green");
+  ctx.lineWidth = 1;
+  ctx.font = "400 16px 'nunito', sans-serif";
+  ctx.strokeStyle = "#000000";
   ctx.strokeText("Acceleration Diagram (Scale = 1:" + scalea + ")", 170, 350);
   ctx.restore();
   pointdisp(aan, ctx, 2, "blue", "white", "black", "12px", "12px");
